@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url("Font/Golos-UI_Medium.ttf");
+}
+
+.profile-content__user-name {
+    margin: 0;
+    font-family: "Golos UI";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    color: #222222;
+    width: 361px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-block {
+    margin: 0;
+    max-width: 972px;
+    margin-left: 234px;
+}
+
+.body-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons-block {
+    width: 72px;
+    padding: 48px 24px 0px;
+    box-sizing: border-box;
+    margin: 0;
+    border-right: 1px solid #2222220D;
+}
+
+.profile-content__user-descr {
+    margin: 0;
+    display: block;
+    font-family: "Golos UI";
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    width: 361px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.profile-content__avatar-img {
+    width: 123px;
+    height: 123px;
+    margin-bottom: 20px;
+}
+
+.profile-content__posts-btn {
+    font-family: "Golos UI";
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #F2F3F5;
+    border: none;
+    border-radius: 6px;
+    min-width: 101px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    padding: 6px 10px;
+}
+
+.images-picture {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.images__profile-posts {
+    margin: 0;
+    width: 322.35px;
+    max-height: 322.35px;
+    margin-bottom: 2.48px;
+}
+
+.icons-block__icons {
+    padding: 0;
+    margin-bottom: 16px;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.home-icon {
+    margin-bottom: 4px;
+}
+
+.icons-block__dot {
+    margin-left: 10px;
+    padding: 0;
+    width: 4px;
+    height: 4px;
+    margin-bottom: 16px;
+}
+
+.profile-content__user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 361px;
+    margin-left: 306px;
+    margin-bottom: 42px;
+}
+
+.profile-content {
+    padding: 0;
+    width: 972px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 97px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+}
+
+.icons-block__icons_profile-icon-margin {
+    margin-bottom: 4px;
+}

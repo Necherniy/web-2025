@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Golos Ui";
+    src: url('Font/Golos-UI_Regular.ttf');
+}
+
+.user-data__avatar-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.body-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons-block {
+    width: 72px;
+    padding: 48px 24px 0px;
+    box-sizing: border-box;
+    margin: 0;
+    border-right: 1px solid #2222220D;
+}
+.content-block {
+    margin: 0;
+    width: 474px;
+    margin-left: 410px;
+    margin-top: 89px;
+}
+.user-data__user-name {
+    font-family: "Golos UI";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.post-info__likes-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    min-width: 68px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #2222220D;    ;
+    border-radius: 8px;
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    margin-bottom: 16px;
+}
+
+.post-info__likes-btn__img {
+    margin-right: 3px;
+    height: 18px;
+    width: 16px;
+}
+
+
+.post-info__post-description {
+    font-family: "Golos UI";
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    line-clamp: 2;
+}
+
+.post-info__more-btn {
+    padding: 0;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+    margin-bottom: 8px;
+}
+
+.post-info__post-date {
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #22222280;
+}
+.icons-block__icons {
+    padding: 0;
+    margin-bottom: 16px;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icons-block__dot {
+    margin-left: 10px;
+    padding: 0;
+    width: 4px;
+    height: 4px;
+    margin-bottom: 16px;
+}
+
+.user-data {
+    display: flex;
+    align-items: center;
+}
+.user-data-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.post-photo {
+    margin-bottom: 16px;
+}
+
+.post-info {
+    margin-bottom: 36px;
+}
+
+.icons-block__icons_home-icon-margin {
+    margin-bottom: 4px;
+}
+
+.edit-post-icon {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons-block__dot {
+    margin-left: 10px;
+    margin-bottom: 16px;
+}

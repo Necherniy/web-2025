@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Golos Ui";
+    src: url('Font/Golos-UI_Regular.ttf');
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 501px;
+    max-width: 912px;
+    box-sizing: border-box;
+    position: relative;
+    left: 269px;
+    top: 106px;
+}
+
+.body-tag {
+    position: relative;
+    min-height: 1080px;
+}
+
+.login-form {
+    display: block;
+    max-width: 343px;
+    max-height: 251px;
+    position: relative;
+}
+
+.image {
+    max-width: 462px;
+    max-height: 501px;
+}
+
+.login-form__labels {
+    font-family: "Golos UI";
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.login-form__inputs {
+    font-family: "Golos UI";
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F3F5;
+    height: 44px;
+    width: 343px;
+    padding: 13px 12px;
+    outline: none;
+}
+
+.login-form__inputs:focus {
+    border: 1px solid #3F8AE0;
+}
+.login-form__labels_email-font {
+    margin: 0;
+    font-size: 13px;
+    color: #808080;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+    margin-bottom: 16px
+}
+.login-form__eye-button-img {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 307px;
+    top: -39px;
+}
+
+.header {
+    font-family: "Golos Ui";
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    margin: 0;
+    color: #222222;
+    position: relative;
+    left: 179px;
+    top: 182px;
+    z-index: 1;
+}
+
+.login-form__submit-input {
+    width: 343px;
+    height: 48px;
+    font-family: "Golos Ui";
+    font-size: 16px;
+    line-height: 100%;
+    background-color: #222222;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: border, background-color 0.3s ease;
+}
+
+.login-form__submit-input:focus {
+    border: 2px solid #3F8AE0;
+}
+
+.login-form__submit-input:disabled {
+    background-color: #B4B4B4;
+    border: 2px solid #B4B4B4;
+}
+
+
+.login-form__inputs_password-padding {
+    padding-right: 38px;
+}
