@@ -3,14 +3,19 @@ function genPas(len) {
     if (len < 4) {
         console.log('Пароль должен содержать минимум 4 символа!')
         len = 0
+        return
     }
-    len = len -4
-    retStr = retStr + String.fromCharCode(Math.round(Math.random() * 25 + 97))
-    retStr = retStr + String.fromCharCode(Math.round(Math.random() * 25 + 65))
-    retStr = retStr + String.fromCharCode(Math.round(Math.random() * 9 + 48))
-    retStr = retStr + String.fromCharCode(Math.round(Math.random() * 14 + 33))
+    len -= 4
+    retStr += String.fromCharCode(Math.round(Math.random() * 25 + 97))
+    console.log(retStr)
+    retStr += String.fromCharCode(Math.round(Math.random() * 25 + 65))
+    console.log(retStr)
+    retStr += String.fromCharCode(Math.round(Math.random() * 9 + 48))
+    console.log(retStr)
+    retStr += String.fromCharCode(Math.round(Math.random() * 14 + 33))
+    console.log(retStr)
     for (let i = 0; i < len; i++) {
-        retStr = retStr + String.fromCharCode((Math.round(Math.random() * 93 + 33)))
+        retStr += String.fromCharCode((Math.round(Math.random() * 93 + 33)))
     }
     return retStr
 }

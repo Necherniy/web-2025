@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "Golos Ui";
+    src: url('Font/Golos-UI_Regular.ttf');
+}
+
+body {
+    padding: 0;
+    /* overflow-y: hidden; */
+}
+
+.user-data__avatar-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.body-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons-block {
+    width: 72px;
+    padding: 48px 24px 0px;
+    box-sizing: border-box;
+    margin: 0;
+    border-right: 1px solid #2222220D;
+}
+.content-block {
+    margin: 0;
+    width: 474px;
+    margin-left: 410px;
+    margin-top: 89px;
+}
+.user-data__user-name {
+    font-family: "Golos UI";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.post-info__likes-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    min-width: 68px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #2222220D;    ;
+    border-radius: 8px;
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    margin-bottom: 16px;
+}
+
+.post-info__likes-btn__img {
+    margin-right: 3px;
+    height: 18px;
+    width: 16px;
+}
+
+
+.post-info__post-description {
+    font-family: "Golos UI";
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    line-clamp: 2;
+}
+
+.more-btn_pushed {
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.post-info__more-btn {
+    padding: 0;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+    margin-bottom: 8px;
+}
+
+.post-info__post-date {
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #22222280;
+}
+.icons-block__icons {
+    padding: 0;
+    margin-bottom: 16px;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icons-block__dot {
+    margin-left: 10px;
+    padding: 0;
+    width: 4px;
+    height: 4px;
+    margin-bottom: 16px;
+}
+
+.user-data {
+    display: flex;
+    align-items: center;
+}
+.user-data-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.post-photo-block {
+    margin-bottom: 16px;
+    position: relative;
+    width: 474px;
+    height: 474px;
+}
+
+.post-photo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.post-photo_transparent {
+    display: none;
+}
+
+.slider-button-block__button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.slider-button-block__button_disabled {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: auto; 
+}
+
+.slider-button-block {
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    position: relative;
+    top: 47%;
+    z-index: 1;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.photos-amount-block {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    z-index: 1;
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: rgba(34, 34, 34, 0.5);
+}
+.photos-amount-block__amount {
+    font-family: "Golos UI";
+    font-weight: 400;
+    size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: white;
+}
+
+.post-photo-block__button {
+    width: 20px;
+    height: 20px;
+}
+
+.post-info {
+    margin-bottom: 36px;
+}
+
+.icons-block__icons_home-icon-margin {
+    margin-bottom: 4px;
+}
+
+.edit-post-icon {
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons-block__dot {
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+
+.modal-window {
+    background-color: rgba(34, 34, 34, 0.5);
+    backdrop-filter: blur(19.100000381469727px);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.body_invisible {
+    visibility: hidden;
+}
+
+.modal-window__cross {
+    position: relative;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    left: 1008px;
+    top: 201px;
+}
+
+.modal-window__post {
+    width: 636px;
+    height: 636px;
+    margin-left: 402px;
+    margin-top: 223px;
+}
+
+.modal-window__photos-amount {
+    position: relative;
+    left: 298px;
+    top: 660px;
+}
+
+.body_modal-window {
+    overflow: hidden;
+}
+
+.post-block {
+    width: 474px;
+    position: relative;
+}

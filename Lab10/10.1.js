@@ -1,7 +1,7 @@
-let isPrime
 function isPrimeNumber(Number) {
-    let ComparedNumber
-    let Limit
+    let ComparedNumber = 0
+    let Limit = 0
+    let isPrime = true
     if (typeof(Number) == 'number'){
         Limit = 1
         ComparedNumber = Number
@@ -13,6 +13,7 @@ function isPrimeNumber(Number) {
         console.log('Ошибка ввода')
         Limit = 0
     }
+    
     for (let i = 0; i < Limit; i++) {
         isPrime = true
         if (typeof(Number) == 'object'){
@@ -26,7 +27,7 @@ function isPrimeNumber(Number) {
             if (ComparedNumber % j == 0) {
                 isPrime = false
             }
-        }
+        }//Вынести в отдельную функцию
         if (isPrime) {
             console.log(`Результат: ${ComparedNumber} простое число`)
         }

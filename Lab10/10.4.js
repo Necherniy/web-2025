@@ -10,5 +10,5 @@ function mergeObjects(obj1, obj2) {
         mergedObj[key] = obj2[key]
     }
     return mergedObj
-}
+}//{...obj1, ...obj2}
 console.log(mergeObjects(obj1, obj2))

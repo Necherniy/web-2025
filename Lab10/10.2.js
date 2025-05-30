@@ -7,7 +7,8 @@ function countVowels(string) {
             counter++
         }
     }
-    console.log(`Количество гласных = ${counter}`)
+    return counter
 }
 
-countVowels('аеёиоуыэюя б')
+let counter = countVowels('')
+console.log(`Количество гласных = ${counter}`)
