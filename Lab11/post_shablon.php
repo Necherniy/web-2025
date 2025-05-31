@@ -1,6 +1,6 @@
 <?php
     include('connect_functions.php');
-    function post_layout(PDO $connection, string $id, string $post_id) {
+    function post_layout(PDO $connection, int $id, int $post_id) {
             $query = connect_to_post($connection, $id);
             $file_data = $query->fetch(PDO::FETCH_ASSOC);
             $user_avatar = $file_data["avatar_icon"];
