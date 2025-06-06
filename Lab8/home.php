@@ -15,22 +15,17 @@
     <div class="content-block">
     <?php
         function connectDatabase(): PDO {
-            $dsn = 'mysql:host=localhost:3306;dbname=blog';
+            $dsn = 'mysql:host=localhost;dbname=blog';
             $user = 'root';
             $password = '';
             return new PDO($dsn, $user, $password);
         }
         $connection = connectDatabase();
         include "post_shablon.php";
-        $users = 
-        [
-            $id1 = 1,
-            $id2 = 2,
-            $id3 = 3
-        ];
-        $post_id1 = 1;
-        foreach ($users as $key => $value) {
-            post_layout($connection, $value, $post_id1);
+        $posts = get_posts($connection);
+        $posts_ids = $posts->fetchALL(PDO::FETCH_ASSOC);
+        foreach($posts_ids as $post => $keys) {
+            post_layout($connection, $keys['id'], $keys['post_id']);
         }
     ?>
     </div>

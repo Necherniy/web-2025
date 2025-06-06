@@ -21,7 +21,9 @@
                     </div>
                     <button class="edit-post-icon"><img src="edit_post_icon.png" alt="Edit_post_icon"></button>
                 </div>
+                <div class="post-photo-wrapper">
                 <img class="post-photo" src=$post_photo alt="Post_photo_current_user">
+                </div>
                 <div class="post-info">
                     <button class="post-info__likes-btn"><img class="post-info__likes-btn__img" src="like_icon.png" alt="Like_icon">$likes_amount</button>
              HTML;

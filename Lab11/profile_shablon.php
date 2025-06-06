@@ -9,7 +9,7 @@
             $query = connect_to_photos($connection, $id);
             $file_data = $query->fetchall(PDO::FETCH_ASSOC);
             $counter = 0;
-            foreach ($file_data as $key => $value) {
+            foreach($file_data as $key => $value) {
                 foreach($value as $key_inside => $value_inside){
                     if('photo' == substr($key_inside, 0, 5) && $value_inside != null) {
                         $counter += 1;

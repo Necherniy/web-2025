@@ -5,13 +5,13 @@
 
 .wrapper {
     display: flex;
-    justify-content: space-between; /* использовать gap */
+    justify-content: space-between; 
     align-items: center;
-    max-height: 501px; /* убрать лишние фиксированные размеры */
+    max-height: 501px; 
     max-width: 912px;
     box-sizing: border-box;
     position: relative;
-    left: 269px; /* не использовать относительное позиционирование для */
+    left: 269px; 
     top: 106px;
 }
 
@@ -125,4 +125,16 @@
 
 .login-form__inputs_password-padding {
     padding-right: 38px;
+}
+
+.input_err {
+    border: #E64646 1px solid;
+}
+
+.input_err:focus {
+    border: #E64646 1px solid;
+}
+
+.label_input_err {
+    color: #E64646;
 }

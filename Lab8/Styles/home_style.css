@@ -19,6 +19,10 @@
     margin: 0;
     border-right: 1px solid #2222220D;
 }
+.post-photo-wrapper {
+    width: 474px;
+    height: 474px;
+}
 .content-block {
     margin: 0;
     width: 474px;
@@ -126,6 +130,8 @@
 
 .post-photo {
     margin-bottom: 16px;
+    width: 474px;
+    height: 474px;
 }
 
 .post-info {

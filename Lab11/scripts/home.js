@@ -1,7 +1,7 @@
 const parentElem = document.body
-const buttonElem = document.querySelectorAll('.slider-button-block__button');
+const buttonElems = document.querySelectorAll('.slider-button-block__button');
 
-buttonElem.forEach((slider) => sliderButtons(slider));
+buttonElems.forEach((slider) => sliderButtons(slider));
 
 function sliderButtons(slider) {
     slider.addEventListener('click', function() {
@@ -67,7 +67,6 @@ modalWindow.classList.add('modal-window');
 cross.src = 'modal_window_cross.svg';
 cross.classList.add('modal-window__cross');
 modalWindow.appendChild(cross);
-parentElem.classList.add()
 postElem.forEach((elem) => addModalWindow(elem));
 
 function addModalWindow(element) {
@@ -145,3 +144,9 @@ function showHide(elem) {
         }
     })
 }
+
+const plus_btn = document.getElementById("plus_btn");
+
+plus_btn.addEventListener('click', function() {
+    window.location.href = 'http://localhost:8001/addPost.php';
+})

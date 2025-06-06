@@ -43,6 +43,7 @@ body {
     flex-wrap: wrap;
 }
 .add-photo-block {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,28 +54,25 @@ body {
     margin-bottom: 20px;
 }
 
-.add-photo-block__btn[type=file]::file-selector-button {
+.add-photo-block__btn {
     border: none;
+    margin-top: 12px;
+    padding: 14.5px 16px;
+    text-align: center;
+    border-radius: 10px;
     background-color: rgba(34, 34, 34, 1);
     color: rgba(255, 255, 255, 1);
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-     width: 100%;
+    width: 100%;
     height: 48px;
+    box-sizing: border-box;
     cursor: pointer;
 }
 
-
-.add-photo-block__btn{
-    margin: 0;
-    outline: none;
-    border-radius: 10px;
-    width: 100%;
-    height: 48px;
-    cursor: pointer;
-    border: none;
-    box-sizing: border-box;
+.disabled-input {
+    display: none;
 }
 
 .add-photo-block__photo {
@@ -135,6 +133,7 @@ body {
     line-height: 100%;
     color: rgba(255, 255, 255, 1);
     border: none;
+    cursor: pointer;
 }
 
 .add-post-btn:disabled {
@@ -147,3 +146,68 @@ body {
     margin-top: 82px;
 }
 
+.added-photos-width {
+    max-width: 474px;
+    max-height: 474px;
+}
+
+.added-photo_disabled {
+    display: none;
+}
+
+
+.slider-button-block__button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.slider-button-block__button_disabled {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: auto; 
+}
+
+.slider-button-block {
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    position: absolute;
+    top: 221px;
+    z-index: 1;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.photo {
+    position: relative;
+}
+
+.photos-amount-font {
+    font-family: "Golos UI";
+    font-weight: 400;
+    size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: white;
+}
+
+.photos-amount-block {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    z-index: 1;
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background: rgba(34, 34, 34, 0.5);
+}

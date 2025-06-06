@@ -13,7 +13,7 @@
         <form class="login-form">
             <label for="email" class="login-form__labels">Электропочта</label>
             <input id="email" class="login-form__inputs" type="text" name="address">
-            <label class="login-form__labels login-form__labels_email-font">Введите электропочту в формате *****@***.**</label>
+            <label id="email_label" class="login-form__labels login-form__labels_email-font">Введите электропочту в формате *****@***.**</label>
             <label for="password" class="login-form__labels">Пароль</label>
             <input id="password" class="login-form__inputs login-form__inputs_password-padding" type="password" name="password">
             <img class="login-form__eye-button-img" src="login_password_eye.svg" alt="Скрыть/показать">

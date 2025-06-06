@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts/profile.js" defer></script>
     <meta charset="UTF-8">
     <link href="Styles/profile_style.css" rel="stylesheet">
     <title>Profile</title>
 </head>
 <body class="body-tag">
 <div class="buttons-block">
-        <button class="icons-block__icons"><img src="house_icon.png" alt="House_icon"></button>  
+        <button id="home_btn" class="icons-block__icons"><img src="house_icon.png" alt="House_icon"></button>  
         <button class="icons-block__icons icons-block__icons_profile-icon-margin"><img src="profile_icon.svg" alt="Porfile_icon"></button>
         <img class="icons-block__dot" src="under_dot.png" alt="Under_dot">
-        <button class="icons-block__icons"><img src="plus_icon.png" alt="Plus_icon"></button>
+        <button id="plus_btn" class="icons-block__icons"><img src="plus_icon.png" alt="Plus_icon"></button>
 </div>
 <div class="content-block">
     <?php
